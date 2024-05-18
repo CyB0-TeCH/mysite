@@ -1,0 +1,263 @@
+
+
+h1 {
+  font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+  font-size: 30px;
+  font-color: #ffffff;
+}
+
+h2 {
+color: #999999;
+font-family: arial, sans-serif;
+font-size: 16px;
+font-weight: semi-bold;
+margin-top: 0px;
+margin-bottom: 1px;
+}
+
+h3 {
+color: #999999;
+font-family: arial, sans-serif;
+font-size: 14px;
+font-weight: semi-bold;
+margin-top: 0px;
+margin-bottom: 1px;
+}
+
+h4 {
+color: #999999;
+font-family: arial, sans-serif;
+font-size: 13px;
+font-weight: semi-bold;
+margin-top: 0px;
+margin-bottom: 1px;
+}
+
+a {  
+  color: #000000;
+  font-family: "Gruppo", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  padding: 7px;
+}
+
+p {
+color: #999999;
+font-family: arial, sans-serif;
+font-size: 12px;
+font-weight: regular;
+margin-top: 0px;
+margin-bottom: 1px;
+}
+    
+h2.page-title {
+  font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  Font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 400;
+  color: #000000;
+}
+
+.site-description {
+    font-family: "Gruppo", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+}
+
+head {
+    margin: 0;
+    width:100%;
+}
+
+.head-container {
+    background-color: #000000;
+    padding-bottom: 15px;
+    margin: 0 ;
+    width: 100%;
+}
+
+.head-banner {
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 0;
+    font-color: #ffffff;
+}
+
+.small-logo {
+    display: inline-block;
+   height: auto;
+}
+
+h1.head-banner {
+font-family: "Gruppo", sans-serif;
+font-weight: 800;
+font-style: normal;
+margin: 0;
+color:white;
+}
+
+page {
+    display: block;
+    margin:0;
+    height: auto;
+    width: auto;
+}    
+    
+header {
+    display:block;
+    background-color:#bfbfbf;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.image-logo {
+    width: auto;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+
+.text-logo {
+    text-align: center;
+    width: auto;
+    padding: 10px;
+    width: flex;
+    height: auto;
+}    
+
+#slider {
+    clear: both; 
+}
+    
+.page-wrapper {
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+}
+    
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+    
+html, body { 
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    background-color: #fff;
+    color: #000;
+    padding: 40px 0;
+    flex: 1; 
+    min-height: calc(100vh - 100px); 
+}
+
+footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+.page-footer { 
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #000000;  
+}
+
+.footer-container {
+    display: block;
+    margin:0;
+}
+
+
+//*BACKGROUND BAR FOR MAIN MENU BAR*//
+.main-page-nav-bar {
+    display: block;
+    background-color: #000000; 
+    width: auto;
+    height: auto;
+    margin: 15px;
+}
+
+//*BOXES FOR DECORATING MAIN BUTTONS*//
+
+.button_box {
+    width:50px;
+    padding: 7px;
+    color: #ffffff;
+}
+
+//* MAIN MENU BAR BUTTONS*//
+main-menu {
+  background-color: #000000; /* Example background color */
+    color: white;
+    margin: 0;
+    height: auto;
+    width: auto;
+}
+
+nav ul {
+  background-color: blue;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;/* Arrange menu items horizontally */
+  justify-content: center; /* Center the menu */
+}
+
+nav li {
+    margin: 0;
+    padding: 10px;
+    height: auto;
+    display: flex;/* Add spacing between menu items */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 25px;
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Rollover effect */
+nav a:hover {
+  background-color: #ffffff; 
+  border: 2px solid #000000;
+  color: #000000;
+}
+    
+//*GOOGLE FONTS 
+<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 800 *//
+
+.ubuntu-sans-<uniquifier> {
+  font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.gruppo-regular {
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
